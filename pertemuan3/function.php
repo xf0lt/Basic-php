@@ -14,6 +14,6 @@ function salam($waktu = "datang", $nama = "admin") {
    <title>Latihan function</title>
 </head>
 <body>
-   <h1><?= salam("pagi", "iswan"); ?></h1>
+   <h1><?php echo salam("pagi", "iswan") ;?></h1>
 </body>
 </html>
